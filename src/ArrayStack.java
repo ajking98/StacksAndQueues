@@ -53,6 +53,9 @@ public class ArrayStack<T> implements StackInterface<T> {
         if (data == null) {
             throw new IllegalArgumentException();
         }
+        if (size == backingArray.length) {
+            expandCapacity();
+        }
         backingArray[size] = data;
         size++;
     }
@@ -80,5 +83,26 @@ public class ArrayStack<T> implements StackInterface<T> {
     public Object[] getBackingArray() {
         // DO NOT MODIFY THIS METHOD!
         return backingArray;
+    }
+
+    /**
+     * Creates a new array to store the contents of the list with twice
+     * the capacity of the old one.
+     */
+    private void expandCapacity() {
+        T[] newList = (T[]) (new Object[size * 2]);
+
+        for (int i = 0; i < size; i++) {
+            newList[i] = backingArray[i];
+        }
+
+        createBackingArray(newList);
+    }
+
+    /**
+     * @param newList the newList to set to the old arrayList
+     */
+    private void createBackingArray(T[] newList) {
+        backingArray = newList;
     }
 }

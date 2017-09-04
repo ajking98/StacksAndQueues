@@ -1,3 +1,5 @@
+import java.util.NoSuchElementException;
+
 /**
  * Your implementation of an array-backed queue.
  *
@@ -18,7 +20,7 @@ public class ArrayQueue<T> implements QueueInterface<T> {
      * Constructs a new ArrayQueue.
      */
     public ArrayQueue() {
-
+        backingArray = (T[]) new Object[INITIAL_CAPACITY];
     }
 
     /**
@@ -32,8 +34,13 @@ public class ArrayQueue<T> implements QueueInterface<T> {
      */
     @Override
     public T dequeue() {
-
-        return null;
+        if (size == 0) {
+            throw new NoSuchElementException();
+        }
+        T removedObj = backingArray[0];
+        backingArray[0] = null;
+        size--;
+        return removedObj;
     }
 
     /**
@@ -48,7 +55,14 @@ public class ArrayQueue<T> implements QueueInterface<T> {
      */
     @Override
     public void enqueue(T data) {
-
+        if (data == null) {
+            throw new IllegalArgumentException();
+        }
+        if (size == backingArray.length) {
+            expandCapacity();
+        }
+        backingArray[size] = data;
+        size++;
     }
 
     @Override
@@ -74,5 +88,25 @@ public class ArrayQueue<T> implements QueueInterface<T> {
     public Object[] getBackingArray() {
         // DO NOT MODIFY THIS METHOD!
         return backingArray;
+    }
+    /**
+     * Creates a new array to store the contents of the list with twice
+     * the capacity of the old one.
+     */
+    private void expandCapacity() {
+        T[] newList = (T[]) (new Object[size * 2]);
+
+        for (int i = 0; i < size; i++) {
+            newList[i] = backingArray[i];
+        }
+
+        createBackingArray(newList);
+    }
+
+    /**
+     * @param newList the newList to set to the old arrayList
+     */
+    private void createBackingArray(T[] newList) {
+        backingArray = newList;
     }
 }
