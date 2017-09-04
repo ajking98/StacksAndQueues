@@ -14,7 +14,7 @@ public class LinkedStack<T> implements StackInterface<T> {
 
     @Override
     public T pop() {
-
+        return null;
     }
 
     @Override

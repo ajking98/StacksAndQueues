@@ -1,10 +1,12 @@
+import java.util.NoSuchElementException;
+
 /**
  * Your implementation of an array-backed stack.
  *
- * @author YOUR NAME HERE
- * @userid YOUR USER ID HERE (i.e. gburdell3)
- * @GTID YOUR GT ID HERE (i.e. 900000000)
- * @version 1.0
+ * @author Ahmed Gedi
+ * @userid agedi3
+ * @GTID 903197142
+ * @version 1.44
  */
 public class ArrayStack<T> implements StackInterface<T> {
 
@@ -16,7 +18,7 @@ public class ArrayStack<T> implements StackInterface<T> {
      * Constructs a new ArrayStack.
      */
     public ArrayStack() {
-
+        backingArray = (T[]) new Object[INITIAL_CAPACITY];
     }
 
     /**
@@ -28,7 +30,14 @@ public class ArrayStack<T> implements StackInterface<T> {
      */
     @Override
     public T pop() {
+        if (size == 0) {
+            throw new NoSuchElementException();
+        }
 
+        T poppedValue = backingArray[size - 1];
+        backingArray[size - 1] = null;
+        size--;
+        return poppedValue;
     }
 
     /**
@@ -41,7 +50,11 @@ public class ArrayStack<T> implements StackInterface<T> {
      */
     @Override
     public void push(T data) {
-
+        if (data == null) {
+            throw new IllegalArgumentException();
+        }
+        backingArray[size] = data;
+        size++;
     }
 
     @Override

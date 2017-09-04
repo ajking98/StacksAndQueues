@@ -33,6 +33,7 @@ public class ArrayQueue<T> implements QueueInterface<T> {
     @Override
     public T dequeue() {
 
+        return null;
     }
 
     /**
