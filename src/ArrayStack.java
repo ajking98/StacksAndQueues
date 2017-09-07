@@ -1,4 +1,4 @@
-import java.util.NoSuchElementException;
+
 
 /**
  * Your implementation of an array-backed stack.
@@ -31,7 +31,7 @@ public class ArrayStack<T> implements StackInterface<T> {
     @Override
     public T pop() {
         if (size == 0) {
-            throw new NoSuchElementException();
+            throw new java.util.NoSuchElementException();
         }
 
         T poppedValue = backingArray[size - 1];

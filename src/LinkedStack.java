@@ -14,12 +14,23 @@ public class LinkedStack<T> implements StackInterface<T> {
 
     @Override
     public T pop() {
-        return null;
+        if (isEmpty()) {
+            throw new java.util.NoSuchElementException();
+        }
+        LinkedNode nodeTORemove = head;
+        head = head.getNext();
+        size--;
+        return (T) nodeTORemove.getData();
+
     }
 
     @Override
     public void push(T data) {
-
+        if (data == null) {
+            throw new IllegalArgumentException();
+        }
+        head = new LinkedNode<T>(data, head);
+        size++;
     }
 
     @Override

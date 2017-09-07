@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0ef8a01-ab82-4139-8866-0a6874aef23d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StacksQueuesTestByFrancine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StacksAndQueues/ArrayQueue.class" afterPath="$PROJECT_DIR$/out/production/StacksAndQueues/ArrayQueue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StacksAndQueues/LinkedQueue.class" afterPath="$PROJECT_DIR$/out/production/StacksAndQueues/LinkedQueue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StacksAndQueues/LinkedStack.class" afterPath="$PROJECT_DIR$/out/production/StacksAndQueues/LinkedStack.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArrayQueue.java" afterPath="$PROJECT_DIR$/src/ArrayQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArrayStack.java" afterPath="$PROJECT_DIR$/src/ArrayStack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JStacksQueuesTests.java" afterPath="$PROJECT_DIR$/src/JStacksQueuesTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LinkedQueue.java" afterPath="$PROJECT_DIR$/src/LinkedQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LinkedStack.java" afterPath="$PROJECT_DIR$/src/LinkedStack.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,31 +22,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ArrayQueue.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="ArrayQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArrayQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+            <state relative-caret-position="328">
+              <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
               <folding>
                 <element signature="docComment;class#ArrayQueue#0" expanded="true" />
                 <element signature="docComment;method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
+                <element signature="method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
                 <element signature="docComment;method#dequeue#0;class#ArrayQueue#0" expanded="true" />
                 <element signature="method#dequeue#0;class#ArrayQueue#0" expanded="true" />
                 <element signature="docComment;method#enqueue#0;class#ArrayQueue#0" expanded="true" />
-                <element signature="method#enqueue#0;class#ArrayQueue#0" expanded="true" />
                 <element signature="method#isEmpty#0;class#ArrayQueue#0" expanded="true" />
                 <element signature="method#size#0;class#ArrayQueue#0" expanded="true" />
                 <element signature="docComment;method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
                 <element signature="method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
                 <element signature="docComment;method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
                 <element signature="method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
-                <element signature="docComment;method#createBackingArray#0;class#ArrayQueue#0" expanded="true" />
-                <element signature="e#2757#2758#0" expanded="true" />
-                <element signature="e#2795#2796#0" expanded="true" />
+                <element signature="docComment;method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StacksQueuesTestByFrancine.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/StacksQueuesTestByFrancine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -45,13 +61,11 @@
       <file leaf-file-name="ArrayStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArrayStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="87" column="4" lean-forward="true" selection-start-line="87" selection-start-column="4" selection-end-line="106" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#ArrayStack#0" expanded="true" />
                 <element signature="docComment;method#ArrayStack#0;class#ArrayStack#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
                 <element signature="docComment;method#pop#0;class#ArrayStack#0" expanded="true" />
                 <element signature="method#pop#0;class#ArrayStack#0" expanded="true" />
                 <element signature="docComment;method#push#0;class#ArrayStack#0" expanded="true" />
@@ -63,8 +77,6 @@
                 <element signature="docComment;method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
                 <element signature="method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
                 <element signature="docComment;method#createBackingArray#0;class#ArrayStack#0" expanded="true" />
-                <element signature="e#2414#2415#0" expanded="true" />
-                <element signature="e#2452#2453#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,26 +85,15 @@
       <file leaf-file-name="LinkedNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
               <folding>
                 <element signature="docComment;class#LinkedNode#0" expanded="true" />
-                <element signature="docComment;method#LinkedNode#0;class#LinkedNode#0" expanded="true" />
                 <element signature="method#LinkedNode#0;class#LinkedNode#0" expanded="true" />
                 <element signature="docComment;method#LinkedNode#1;class#LinkedNode#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
                 <element signature="docComment;method#getData#0;class#LinkedNode#0" expanded="true" />
-                <element signature="e#840#841#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
                 <element signature="docComment;method#getNext#0;class#LinkedNode#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
                 <element signature="docComment;method#setNext#0;class#LinkedNode#0" expanded="true" />
-                <element signature="e#1137#1138#0" expanded="true" />
-                <element signature="e#1169#1170#0" expanded="true" />
-                <element signature="e#1215#1216#0" expanded="true" />
-                <element signature="e#1264#1265#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,8 +102,8 @@
       <file leaf-file-name="LinkedQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-295">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="332">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#LinkedQueue#0" expanded="true" />
                 <element signature="method#enqueue#0;class#LinkedQueue#0" expanded="true" />
@@ -120,12 +121,11 @@
       <file leaf-file-name="LinkedStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="147">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="docComment;class#LinkedStack#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
+                <element signature="method#pop#0;class#LinkedStack#0" expanded="true" />
                 <element signature="method#push#0;class#LinkedStack#0" expanded="true" />
                 <element signature="method#isEmpty#0;class#LinkedStack#0" expanded="true" />
                 <element signature="method#size#0;class#LinkedStack#0" expanded="true" />
@@ -139,8 +139,8 @@
       <file leaf-file-name="QueueInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/QueueInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="147">
+              <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
               <folding>
                 <element signature="docComment;class#QueueInterface#0" expanded="true" />
                 <element signature="docComment;field#INITIAL_CAPACITY#0;class#QueueInterface#0" expanded="true" />
@@ -156,8 +156,8 @@
       <file leaf-file-name="StackInterface.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StackInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="147">
+              <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
               <folding>
                 <element signature="docComment;class#StackInterface#0" expanded="true" />
                 <element signature="docComment;field#INITIAL_CAPACITY#0;class#StackInterface#0" expanded="true" />
@@ -170,27 +170,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StacksQueuesStudentTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StacksQueuesStudentTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#StacksQueuesStudentTests#0" expanded="true" />
-                <element signature="method#testArrayStackPush#0;class#StacksQueuesStudentTests#0" expanded="true" />
-                <element signature="method#testArrayStackPop#0;class#StacksQueuesStudentTests#0" expanded="true" />
-                <element signature="method#testArrayQueueEnqueue#0;class#StacksQueuesStudentTests#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JStacksQueuesTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JStacksQueuesTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+            <state relative-caret-position="578">
+              <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#JStacksQueuesTests#0" expanded="true" />
@@ -199,7 +183,7 @@
                 <element signature="method#linkedStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
                 <element signature="method#linkedStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
                 <element signature="method#arrayQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
-                <element signature="method#arrayCircularTest#0;class#JStacksQueuesTests#0" expanded="true" />
+                <element signature="method#arrayQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
                 <element signature="e#6192#6270#0" expanded="true" />
                 <element signature="e#7020#7093#0" expanded="true" />
                 <element signature="e#7605#7678#0" expanded="true" />
@@ -231,23 +215,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LinkedQueue.java" />
-        <option value="$PROJECT_DIR$/src/LinkedStack.java" />
-        <option value="$PROJECT_DIR$/src/ArrayStack.java" />
-        <option value="$PROJECT_DIR$/src/ArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/JStacksQueuesTests.java" />
+        <option value="$PROJECT_DIR$/src/LinkedQueue.java" />
+        <option value="$PROJECT_DIR$/src/ArrayStack.java" />
+        <option value="$PROJECT_DIR$/src/LinkedStack.java" />
+        <option value="$PROJECT_DIR$/src/ArrayQueue.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="737" />
-    <option name="y" value="91" />
-    <option name="width" value="625" />
-    <option name="height" value="665" />
+    <option name="x" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -260,28 +243,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="StacksAndQueues" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StacksAndQueues" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StacksAndQueues" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StacksAndQueues" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
@@ -449,67 +411,68 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JStacksQueuesTests - 2017.09.04 at 13h 09m 49s.xml">
+    <history-entry file="JStacksQueuesTests - 2017.09.07 at 15h 07m 23s.xml">
       <configuration name="JStacksQueuesTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StacksQueuesStudentTests - 2017.09.04 at 12h 59m 39s.xml">
-      <configuration name="StacksQueuesStudentTests" configurationId="JUnit" />
+    <history-entry file="JStacksQueuesTests - 2017.09.07 at 15h 07m 32s.xml">
+      <configuration name="JStacksQueuesTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StacksQueuesStudentTests - 2017.09.04 at 12h 59m 55s.xml">
-      <configuration name="StacksQueuesStudentTests" configurationId="JUnit" />
+    <history-entry file="JStacksQueuesTests - 2017.09.07 at 15h 08m 30s.xml">
+      <configuration name="JStacksQueuesTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StacksQueuesStudentTests - 2017.09.04 at 13h 00m 05s.xml">
-      <configuration name="StacksQueuesStudentTests" configurationId="JUnit" />
+    <history-entry file="JStacksQueuesTests - 2017.09.07 at 15h 20m 27s.xml">
+      <configuration name="JStacksQueuesTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StacksQueuesStudentTests - 2017.09.04 at 13h 01m 43s.xml">
-      <configuration name="StacksQueuesStudentTests" configurationId="JUnit" />
+    <history-entry file="JStacksQueuesTests - 2017.09.07 at 15h 20m 40s.xml">
+      <configuration name="JStacksQueuesTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StacksQueuesStudentTests - 2017.09.04 at 13h 01m 53s.xml">
-      <configuration name="StacksQueuesStudentTests" configurationId="JUnit" />
+    <history-entry file="JStacksQueuesTests - 2017.09.07 at 15h 21m 54s.xml">
+      <configuration name="JStacksQueuesTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StacksQueuesStudentTests - 2017.09.04 at 13h 04m 34s.xml">
-      <configuration name="StacksQueuesStudentTests" configurationId="JUnit" />
+    <history-entry file="JStacksQueuesTests - 2017.09.07 at 15h 23m 56s.xml">
+      <configuration name="JStacksQueuesTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StacksQueuesStudentTests - 2017.09.04 at 13h 04m 51s.xml">
-      <configuration name="StacksQueuesStudentTests" configurationId="JUnit" />
+    <history-entry file="JStacksQueuesTests - 2017.09.07 at 15h 27m 25s.xml">
+      <configuration name="JStacksQueuesTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StacksQueuesStudentTests - 2017.09.04 at 13h 06m 06s.xml">
-      <configuration name="StacksQueuesStudentTests" configurationId="JUnit" />
+    <history-entry file="JStacksQueuesTests - 2017.09.07 at 15h 27m 40s.xml">
+      <configuration name="JStacksQueuesTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StacksQueuesStudentTests - 2017.09.04 at 13h 06m 17s.xml">
-      <configuration name="StacksQueuesStudentTests" configurationId="JUnit" />
+    <history-entry file="JStacksQueuesTests - 2017.09.07 at 15h 28m 12s.xml">
+      <configuration name="JStacksQueuesTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5021482" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5273899" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.49785176" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56875" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6331901" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -520,54 +483,60 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JStacksQueuesTests.java</url>
-          <line>153</line>
+          <line>210</line>
           <properties />
-          <option name="timeStamp" value="15" />
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JStacksQueuesTests.java</url>
-          <line>156</line>
+          <line>211</line>
           <properties />
-          <option name="timeStamp" value="16" />
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JStacksQueuesTests.java</url>
-          <line>160</line>
+          <line>214</line>
           <properties />
-          <option name="timeStamp" value="17" />
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JStacksQueuesTests.java</url>
-          <line>163</line>
+          <line>215</line>
           <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JStacksQueuesTests.java</url>
-          <line>171</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JStacksQueuesTests.java</url>
-          <line>174</line>
-          <properties />
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JStacksQueuesTests.java</url>
           <line>175</line>
           <properties />
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JStacksQueuesTests.java</url>
-          <line>176</line>
+          <line>174</line>
           <properties />
-          <option name="timeStamp" value="23" />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JStacksQueuesTests.java</url>
+          <line>171</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JStacksQueuesTests.java</url>
+          <line>163</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JStacksQueuesTests.java</url>
+          <line>156</line>
+          <properties />
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="67" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -576,35 +545,555 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LinkedNode.java">
+    <entry file="file://$PROJECT_DIR$/src/ArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="546">
+          <caret line="45" column="49" lean-forward="false" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
           <folding>
-            <element signature="docComment;class#LinkedNode#0" expanded="true" />
-            <element signature="docComment;method#LinkedNode#0;class#LinkedNode#0" expanded="true" />
-            <element signature="method#LinkedNode#0;class#LinkedNode#0" expanded="true" />
-            <element signature="docComment;method#LinkedNode#1;class#LinkedNode#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="docComment;method#getData#0;class#LinkedNode#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="docComment;method#getNext#0;class#LinkedNode#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="docComment;method#setNext#0;class#LinkedNode#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="docComment;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#dequeue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#dequeue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#enqueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#size#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="87" column="4" lean-forward="false" selection-start-line="87" selection-start-column="4" selection-end-line="106" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#ArrayStack#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#pop#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#pop#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#push#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#push#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#size#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#createBackingArray#0;class#ArrayStack#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-295">
+        <state relative-caret-position="189">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#enqueue#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#size#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#getHead#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#getHead#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#getTail#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#getTail#0;class#LinkedQueue#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;class#LinkedNode#0" expanded="true" />
+            <element signature="method#LinkedNode#0;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#LinkedNode#1;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#getData#0;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#getNext#0;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#setNext#0;class#LinkedNode#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#LinkedStack#0" expanded="true" />
+            <element signature="method#pop#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#push#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#size#0;class#LinkedStack#0" expanded="true" />
+            <element signature="docComment;method#getHead#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#getHead#0;class#LinkedStack#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QueueInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <element signature="docComment;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;field#INITIAL_CAPACITY#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#dequeue#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#enqueue#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#isEmpty#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#size#0;class#QueueInterface#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StackInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;field#INITIAL_CAPACITY#0;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;method#pop#0;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;method#push#0;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;method#isEmpty#0;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;method#size#0;class#StackInterface#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DoublyLinkedList/src/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StacksQueuesStudentTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#StacksQueuesStudentTests#0" expanded="false" />
+            <element signature="method#testArrayStackPush#0;class#StacksQueuesStudentTests#0" expanded="false" />
+            <element signature="method#testArrayStackPop#0;class#StacksQueuesStudentTests#0" expanded="false" />
+            <element signature="method#testArrayQueueEnqueue#0;class#StacksQueuesStudentTests#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JStacksQueuesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3696">
+          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="e#6192#6270#0" expanded="true" />
+            <element signature="e#7020#7093#0" expanded="true" />
+            <element signature="e#7605#7678#0" expanded="true" />
+            <element signature="e#8231#8300#0" expanded="true" />
+            <element signature="method#linkedQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#dequeue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#dequeue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#enqueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#size#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="87" column="4" lean-forward="false" selection-start-line="87" selection-start-column="4" selection-end-line="106" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#ArrayStack#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#pop#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#pop#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#push#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#push#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#size#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#createBackingArray#0;class#ArrayStack#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#enqueue#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#size#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#getHead#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#getHead#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#getTail#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#getTail#0;class#LinkedQueue#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;class#LinkedNode#0" expanded="true" />
+            <element signature="method#LinkedNode#0;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#LinkedNode#1;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#getData#0;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#getNext#0;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#setNext#0;class#LinkedNode#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#LinkedStack#0" expanded="true" />
+            <element signature="method#pop#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#push#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#size#0;class#LinkedStack#0" expanded="true" />
+            <element signature="docComment;method#getHead#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#getHead#0;class#LinkedStack#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QueueInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <element signature="docComment;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;field#INITIAL_CAPACITY#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#dequeue#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#enqueue#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#isEmpty#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#size#0;class#QueueInterface#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StackInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;field#INITIAL_CAPACITY#0;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;method#pop#0;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;method#push#0;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;method#isEmpty#0;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;method#size#0;class#StackInterface#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DoublyLinkedList/src/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StacksQueuesStudentTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#StacksQueuesStudentTests#0" expanded="false" />
+            <element signature="method#testArrayStackPush#0;class#StacksQueuesStudentTests#0" expanded="false" />
+            <element signature="method#testArrayStackPop#0;class#StacksQueuesStudentTests#0" expanded="false" />
+            <element signature="method#testArrayQueueEnqueue#0;class#StacksQueuesStudentTests#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JStacksQueuesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3696">
+          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="e#6192#6270#0" expanded="true" />
+            <element signature="e#7020#7093#0" expanded="true" />
+            <element signature="e#7605#7678#0" expanded="true" />
+            <element signature="e#8231#8300#0" expanded="true" />
+            <element signature="method#linkedQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#dequeue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#dequeue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#enqueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#size#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="87" column="4" lean-forward="false" selection-start-line="87" selection-start-column="4" selection-end-line="106" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#ArrayStack#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#pop#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#pop#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#push#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#push#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#size#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#createBackingArray#0;class#ArrayStack#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="docComment;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#enqueue#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#size#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#getHead#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#getHead#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#getTail#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#getTail#0;class#LinkedQueue#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#LinkedNode#0" expanded="true" />
+            <element signature="method#LinkedNode#0;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#LinkedNode#1;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#getData#0;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#getNext#0;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#setNext#0;class#LinkedNode#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QueueInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <element signature="docComment;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;field#INITIAL_CAPACITY#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#dequeue#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#enqueue#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#isEmpty#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#size#0;class#QueueInterface#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StackInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;field#INITIAL_CAPACITY#0;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;method#pop#0;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;method#push#0;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;method#isEmpty#0;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;method#size#0;class#StackInterface#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DoublyLinkedList/src/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StacksQueuesStudentTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#StacksQueuesStudentTests#0" expanded="false" />
+            <element signature="method#testArrayStackPush#0;class#StacksQueuesStudentTests#0" expanded="false" />
+            <element signature="method#testArrayStackPop#0;class#StacksQueuesStudentTests#0" expanded="false" />
+            <element signature="method#testArrayQueueEnqueue#0;class#StacksQueuesStudentTests#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JStacksQueuesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3696">
+          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="e#6192#6270#0" expanded="true" />
+            <element signature="e#7020#7093#0" expanded="true" />
+            <element signature="e#7605#7678#0" expanded="true" />
+            <element signature="e#8231#8300#0" expanded="true" />
+            <element signature="method#linkedQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#LinkedStack#0" expanded="true" />
+            <element signature="method#pop#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#push#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#size#0;class#LinkedStack#0" expanded="true" />
+            <element signature="docComment;method#getHead#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#getHead#0;class#LinkedStack#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#dequeue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#dequeue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#enqueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#size#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="87" column="4" lean-forward="true" selection-start-line="87" selection-start-column="4" selection-end-line="106" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#ArrayStack#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#pop#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#pop#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#push#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#push#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#size#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#createBackingArray#0;class#ArrayStack#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
           <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="docComment;class#LinkedQueue#0" expanded="true" />
@@ -619,10 +1108,151 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#LinkedNode#0" expanded="true" />
+            <element signature="method#LinkedNode#0;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#LinkedNode#1;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#getData#0;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#getNext#0;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#setNext#0;class#LinkedNode#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QueueInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <element signature="docComment;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;field#INITIAL_CAPACITY#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#dequeue#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#enqueue#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#isEmpty#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#size#0;class#QueueInterface#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/StackInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="210">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;field#INITIAL_CAPACITY#0;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;method#pop#0;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;method#push#0;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;method#isEmpty#0;class#StackInterface#0" expanded="true" />
+            <element signature="docComment;method#size#0;class#StackInterface#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StacksQueuesStudentTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#StacksQueuesStudentTests#0" expanded="false" />
+            <element signature="method#testArrayStackPush#0;class#StacksQueuesStudentTests#0" expanded="false" />
+            <element signature="method#testArrayStackPop#0;class#StacksQueuesStudentTests#0" expanded="false" />
+            <element signature="method#testArrayQueueEnqueue#0;class#StacksQueuesStudentTests#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JStacksQueuesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3696">
+          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="e#6192#6270#0" expanded="true" />
+            <element signature="e#7020#7093#0" expanded="true" />
+            <element signature="e#7605#7678#0" expanded="true" />
+            <element signature="e#8231#8300#0" expanded="true" />
+            <element signature="method#linkedQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="docComment;class#LinkedStack#0" expanded="true" />
+            <element signature="method#pop#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#push#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#size#0;class#LinkedStack#0" expanded="true" />
+            <element signature="docComment;method#getHead#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#getHead#0;class#LinkedStack#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DoublyLinkedList/src/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StacksQueuesStudentTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#StacksQueuesStudentTests#0" expanded="false" />
+            <element signature="method#testArrayStackPush#0;class#StacksQueuesStudentTests#0" expanded="false" />
+            <element signature="method#testArrayStackPop#0;class#StacksQueuesStudentTests#0" expanded="false" />
+            <element signature="method#testArrayQueueEnqueue#0;class#StacksQueuesStudentTests#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;class#LinkedNode#0" expanded="true" />
+            <element signature="method#LinkedNode#0;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#LinkedNode#1;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#getData#0;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#getNext#0;class#LinkedNode#0" expanded="true" />
+            <element signature="docComment;method#setNext#0;class#LinkedNode#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StackInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
           <folding>
             <element signature="docComment;class#StackInterface#0" expanded="true" />
             <element signature="docComment;field#INITIAL_CAPACITY#0;class#StackInterface#0" expanded="true" />
@@ -636,12 +1266,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="147">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="docComment;class#LinkedStack#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
+            <element signature="method#pop#0;class#LinkedStack#0" expanded="true" />
             <element signature="method#push#0;class#LinkedStack#0" expanded="true" />
             <element signature="method#isEmpty#0;class#LinkedStack#0" expanded="true" />
             <element signature="method#size#0;class#LinkedStack#0" expanded="true" />
@@ -651,81 +1280,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="87" column="4" lean-forward="true" selection-start-line="87" selection-start-column="4" selection-end-line="106" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#ArrayStack#0" expanded="true" />
-            <element signature="docComment;method#ArrayStack#0;class#ArrayStack#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="docComment;method#pop#0;class#ArrayStack#0" expanded="true" />
-            <element signature="method#pop#0;class#ArrayStack#0" expanded="true" />
-            <element signature="docComment;method#push#0;class#ArrayStack#0" expanded="true" />
-            <element signature="method#push#0;class#ArrayStack#0" expanded="true" />
-            <element signature="method#isEmpty#0;class#ArrayStack#0" expanded="true" />
-            <element signature="method#size#0;class#ArrayStack#0" expanded="true" />
-            <element signature="docComment;method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
-            <element signature="method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
-            <element signature="docComment;method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
-            <element signature="method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
-            <element signature="docComment;method#createBackingArray#0;class#ArrayStack#0" expanded="true" />
-            <element signature="e#2414#2415#0" expanded="true" />
-            <element signature="e#2452#2453#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StacksQueuesStudentTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#StacksQueuesStudentTests#0" expanded="true" />
-            <element signature="method#testArrayStackPush#0;class#StacksQueuesStudentTests#0" expanded="true" />
-            <element signature="method#testArrayStackPop#0;class#StacksQueuesStudentTests#0" expanded="true" />
-            <element signature="method#testArrayQueueEnqueue#0;class#StacksQueuesStudentTests#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JStacksQueuesTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#JStacksQueuesTests#0" expanded="true" />
-            <element signature="method#arrayStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
-            <element signature="method#arrayStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
-            <element signature="method#linkedStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
-            <element signature="method#linkedStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
-            <element signature="method#arrayQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
-            <element signature="method#arrayCircularTest#0;class#JStacksQueuesTests#0" expanded="true" />
-            <element signature="e#6192#6270#0" expanded="true" />
-            <element signature="e#7020#7093#0" expanded="true" />
-            <element signature="e#7605#7678#0" expanded="true" />
-            <element signature="e#8231#8300#0" expanded="true" />
-            <element signature="method#linkedQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
-            <element signature="method#linkedQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/QueueInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="147">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding>
             <element signature="docComment;class#QueueInterface#0" expanded="true" />
             <element signature="docComment;field#INITIAL_CAPACITY#0;class#QueueInterface#0" expanded="true" />
@@ -737,29 +1295,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#ArrayStack#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#pop#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#pop#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#push#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#push#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#size#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#createBackingArray#0;class#ArrayStack#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JStacksQueuesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="e#6192#6270#0" expanded="true" />
+            <element signature="e#7020#7093#0" expanded="true" />
+            <element signature="e#7605#7678#0" expanded="true" />
+            <element signature="e#8231#8300#0" expanded="true" />
+            <element signature="method#linkedQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#enqueue#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#size#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#getHead#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#getHead#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#getTail#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#getTail#0;class#LinkedQueue#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        <state relative-caret-position="328">
+          <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
           <folding>
             <element signature="docComment;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
+            <element signature="method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#dequeue#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#dequeue#0;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#enqueue#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="method#enqueue#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#isEmpty#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#size#0;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="docComment;method#createBackingArray#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="e#2757#2758#0" expanded="true" />
-            <element signature="e#2795#2796#0" expanded="true" />
+            <element signature="docComment;method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StacksQueuesTestByFrancine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>

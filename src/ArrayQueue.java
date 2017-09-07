@@ -1,4 +1,4 @@
-import java.util.NoSuchElementException;
+
 
 /**
  * Your implementation of an array-backed queue.
@@ -21,6 +21,7 @@ public class ArrayQueue<T> implements QueueInterface<T> {
      */
     public ArrayQueue() {
         backingArray = (T[]) new Object[INITIAL_CAPACITY];
+        front = 0;
     }
 
     /**
@@ -35,10 +36,11 @@ public class ArrayQueue<T> implements QueueInterface<T> {
     @Override
     public T dequeue() {
         if (size == 0) {
-            throw new NoSuchElementException();
+            throw new java.util.NoSuchElementException();
         }
-        T removedObj = backingArray[0];
-        backingArray[0] = null;
+        T removedObj = backingArray[front];
+        backingArray[front] = null;
+        front = (front + 1) % backingArray.length;
         size--;
         return removedObj;
     }
@@ -61,7 +63,8 @@ public class ArrayQueue<T> implements QueueInterface<T> {
         if (size == backingArray.length) {
             expandCapacity();
         }
-        backingArray[size] = data;
+        backingArray[back] = data;
+        back = (back + 1) % backingArray.length;
         size++;
     }
 
@@ -94,19 +97,25 @@ public class ArrayQueue<T> implements QueueInterface<T> {
      * the capacity of the old one.
      */
     private void expandCapacity() {
-        T[] newList = (T[]) (new Object[size * 2]);
-
-        for (int i = 0; i < size; i++) {
-            newList[i] = backingArray[i];
+        T[] newList = createNewArray();
+        for (int i = front; i < backingArray.length; i++) {
+            newList[i - front] = backingArray[i];
         }
-
-        createBackingArray(newList);
+        if (front >= back) {
+            for (int i = 0; i < back; i++) {
+                newList[i + backingArray.length - front] = backingArray[i];
+            }
+        }
+        backingArray = newList;
+        front = 0;
+        back = size;
     }
 
     /**
-     * @param newList the newList to set to the old arrayList
+     *
+     * @return
      */
-    private void createBackingArray(T[] newList) {
-        backingArray = newList;
+    private T[] createNewArray() {
+        return (T[]) (new Object[backingArray.length * 2]);
     }
 }

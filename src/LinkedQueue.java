@@ -15,13 +15,33 @@ public class LinkedQueue<T> implements QueueInterface<T> {
 
     @Override
     public T dequeue() {
+        if (isEmpty()) {
+            throw new java.util.NoSuchElementException();
+        }
+        T front = null;
+        front = head.getData();
+        head = head.getNext();
+        if (head == null) {
+            tail = null;
+        }
+        size--;
+        return front;
 
-        return null;
     }
 
     @Override
     public void enqueue(T data) {
-
+        if (data == null) {
+            throw new IllegalArgumentException();
+        }
+        LinkedNode newNode = new LinkedNode(data, null);
+        if (isEmpty()) {
+            head = newNode;
+        } else {
+            tail.setNext(newNode);
+        }
+        tail = newNode;
+        size++;
     }
 
     @Override
