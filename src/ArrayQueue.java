@@ -111,7 +111,7 @@ public class ArrayQueue<T> implements QueueInterface<T> {
 
     /**
      *
-     * @return
+     * @return a new array
      */
     private T[] createNewArray() {
         return (T[]) (new Object[backingArray.length * 2]);

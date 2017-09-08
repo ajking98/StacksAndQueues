@@ -70,7 +70,7 @@ public class LinkedQueue<T> implements QueueInterface<T> {
     }
 
     /**
-     *
+     * if the stack is empty then throw a NoSuchElementException
      */
     private void checkIfStackIsEmpty() {
         if (isEmpty()) {
@@ -80,7 +80,7 @@ public class LinkedQueue<T> implements QueueInterface<T> {
 
     /**
      *
-     * @param data
+     * @param data the data to check if it is null
      */
     private void checkForIllegalArgument(T data) {
         if (data == null) {
@@ -90,19 +90,21 @@ public class LinkedQueue<T> implements QueueInterface<T> {
 
     /**
      *
-     * @return
+     * @return the new front after the previous front has benn dequeued
      */
     private T getT() {
         T front = null;
         front = head.getData();
         head = head.getNext();
-        if (head == null) tail = null;
+        if (head == null) {
+            tail = null;
+        }
         return front;
     }
 
     /**
      *
-     * @param newNode
+     * @param newNode the newNode to decide where to position and assign it
      */
     private void assignNodeToNewPosition(LinkedNode newNode) {
         if (isEmpty()) {
