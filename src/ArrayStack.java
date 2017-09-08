@@ -30,13 +30,14 @@ public class ArrayStack<T> implements StackInterface<T> {
      */
     @Override
     public T pop() {
-        if (size == 0) {
-            throw new java.util.NoSuchElementException();
-        }
+        checkForNoSuchElement();
 
         T poppedValue = backingArray[size - 1];
+
         backingArray[size - 1] = null;
+
         size--;
+
         return poppedValue;
     }
 
@@ -50,13 +51,12 @@ public class ArrayStack<T> implements StackInterface<T> {
      */
     @Override
     public void push(T data) {
-        if (data == null) {
-            throw new IllegalArgumentException();
-        }
-        if (size == backingArray.length) {
-            expandCapacity();
-        }
+        checkForIllegalArgument(data);
+
+        checkForFullArray();
+
         backingArray[size] = data;
+
         size++;
     }
 
@@ -104,5 +104,34 @@ public class ArrayStack<T> implements StackInterface<T> {
      */
     private void createBackingArray(T[] newList) {
         backingArray = newList;
+    }
+
+    /**
+     * Checks for no Such Element and if size equals zero
+     */
+    private void checkForNoSuchElement() {
+        if (size == 0) {
+            throw new java.util.NoSuchElementException();
+        }
+    }
+
+    /**
+     *
+     * @param data check if the data is equal to null
+     */
+    private void checkForIllegalArgument(T data) {
+        if (data == null) {
+            throw new IllegalArgumentException();
+        }
+    }
+
+    /**
+     * If the number of elements equals to full length of the array then call
+     * the expandCapacity method
+     */
+    private void checkForFullArray() {
+        if (size == backingArray.length) {
+            expandCapacity();
+        }
     }
 }

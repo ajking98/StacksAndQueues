@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0ef8a01-ab82-4139-8866-0a6874aef23d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StacksQueueDerekTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StacksQueuesTestsByFrancine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/StacksQueuesTestsSanath.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/StacksQueuesTestByFrancine.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArrayQueue.java" afterPath="$PROJECT_DIR$/src/ArrayQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArrayStack.java" afterPath="$PROJECT_DIR$/src/ArrayStack.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LinkedQueue.java" afterPath="$PROJECT_DIR$/src/LinkedQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LinkedStack.java" afterPath="$PROJECT_DIR$/src/LinkedStack.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,31 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ArrayQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArrayQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-              <folding>
-                <element signature="docComment;class#ArrayQueue#0" expanded="true" />
-                <element signature="docComment;method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
-                <element signature="method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
-                <element signature="docComment;method#dequeue#0;class#ArrayQueue#0" expanded="true" />
-                <element signature="method#dequeue#0;class#ArrayQueue#0" expanded="true" />
-                <element signature="docComment;method#enqueue#0;class#ArrayQueue#0" expanded="true" />
-                <element signature="method#isEmpty#0;class#ArrayQueue#0" expanded="true" />
-                <element signature="method#size#0;class#ArrayQueue#0" expanded="true" />
-                <element signature="docComment;method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
-                <element signature="method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
-                <element signature="docComment;method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
-                <element signature="method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
-                <element signature="docComment;method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
-                <element signature="method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StacksQueuesTestsByFrancine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StacksQueuesTestsByFrancine.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,7 +38,7 @@
       <file leaf-file-name="StacksQueuesTestsSanath.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StacksQueuesTestsSanath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
+            <state relative-caret-position="664">
               <caret line="265" column="1" lean-forward="false" selection-start-line="265" selection-start-column="1" selection-end-line="265" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -78,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StacksQueueDerekTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StacksQueueDerekTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StacksQueueDerekTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="748">
@@ -105,106 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayStack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArrayStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;class#ArrayStack#0" expanded="true" />
-                <element signature="docComment;method#ArrayStack#0;class#ArrayStack#0" expanded="true" />
-                <element signature="docComment;method#pop#0;class#ArrayStack#0" expanded="true" />
-                <element signature="method#pop#0;class#ArrayStack#0" expanded="true" />
-                <element signature="docComment;method#push#0;class#ArrayStack#0" expanded="true" />
-                <element signature="method#push#0;class#ArrayStack#0" expanded="true" />
-                <element signature="method#isEmpty#0;class#ArrayStack#0" expanded="true" />
-                <element signature="method#size#0;class#ArrayStack#0" expanded="true" />
-                <element signature="docComment;method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
-                <element signature="method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
-                <element signature="docComment;method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
-                <element signature="method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
-                <element signature="docComment;method#createBackingArray#0;class#ArrayStack#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;class#LinkedQueue#0" expanded="true" />
-                <element signature="method#enqueue#0;class#LinkedQueue#0" expanded="true" />
-                <element signature="method#isEmpty#0;class#LinkedQueue#0" expanded="true" />
-                <element signature="method#size#0;class#LinkedQueue#0" expanded="true" />
-                <element signature="docComment;method#getHead#0;class#LinkedQueue#0" expanded="true" />
-                <element signature="method#getHead#0;class#LinkedQueue#0" expanded="true" />
-                <element signature="docComment;method#getTail#0;class#LinkedQueue#0" expanded="true" />
-                <element signature="method#getTail#0;class#LinkedQueue#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedStack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="docComment;class#LinkedStack#0" expanded="true" />
-                <element signature="method#pop#0;class#LinkedStack#0" expanded="true" />
-                <element signature="method#push#0;class#LinkedStack#0" expanded="true" />
-                <element signature="method#isEmpty#0;class#LinkedStack#0" expanded="true" />
-                <element signature="method#size#0;class#LinkedStack#0" expanded="true" />
-                <element signature="docComment;method#getHead#0;class#LinkedStack#0" expanded="true" />
-                <element signature="method#getHead#0;class#LinkedStack#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueueInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/QueueInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-              <folding>
-                <element signature="docComment;class#QueueInterface#0" expanded="true" />
-                <element signature="docComment;field#INITIAL_CAPACITY#0;class#QueueInterface#0" expanded="true" />
-                <element signature="docComment;method#dequeue#0;class#QueueInterface#0" expanded="true" />
-                <element signature="docComment;method#enqueue#0;class#QueueInterface#0" expanded="true" />
-                <element signature="docComment;method#isEmpty#0;class#QueueInterface#0" expanded="true" />
-                <element signature="docComment;method#size#0;class#QueueInterface#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StackInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StackInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-              <folding>
-                <element signature="docComment;class#StackInterface#0" expanded="true" />
-                <element signature="docComment;field#INITIAL_CAPACITY#0;class#StackInterface#0" expanded="true" />
-                <element signature="docComment;method#pop#0;class#StackInterface#0" expanded="true" />
-                <element signature="docComment;method#push#0;class#StackInterface#0" expanded="true" />
-                <element signature="docComment;method#isEmpty#0;class#StackInterface#0" expanded="true" />
-                <element signature="docComment;method#size#0;class#StackInterface#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JStacksQueuesTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JStacksQueuesTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
+            <state relative-caret-position="559">
+              <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#JStacksQueuesTests#0" expanded="true" />
@@ -220,6 +100,122 @@
                 <element signature="e#8231#8300#0" expanded="true" />
                 <element signature="method#linkedQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
                 <element signature="method#linkedQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ArrayStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-335">
+              <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+              <folding>
+                <element signature="docComment;class#ArrayStack#0" expanded="true" />
+                <element signature="docComment;method#ArrayStack#0;class#ArrayStack#0" expanded="true" />
+                <element signature="docComment;method#pop#0;class#ArrayStack#0" expanded="true" />
+                <element signature="method#pop#0;class#ArrayStack#0" expanded="true" />
+                <element signature="docComment;method#push#0;class#ArrayStack#0" expanded="true" />
+                <element signature="method#push#0;class#ArrayStack#0" expanded="true" />
+                <element signature="method#isEmpty#0;class#ArrayStack#0" expanded="true" />
+                <element signature="method#size#0;class#ArrayStack#0" expanded="true" />
+                <element signature="docComment;method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
+                <element signature="method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
+                <element signature="docComment;method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
+                <element signature="docComment;method#createBackingArray#0;class#ArrayStack#0" expanded="true" />
+                <element signature="docComment;method#checkForNoSuchElement#0;class#ArrayStack#0" expanded="true" />
+                <element signature="method#checkForNoSuchElement#0;class#ArrayStack#0" expanded="true" />
+                <element signature="docComment;method#checkForIllegalArgument#0;class#ArrayStack#0" expanded="true" />
+                <element signature="method#checkForIllegalArgument#0;class#ArrayStack#0" expanded="true" />
+                <element signature="docComment;method#checkForFullArray#0;class#ArrayStack#0" expanded="true" />
+                <element signature="method#checkForFullArray#0;class#ArrayStack#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ArrayQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="170" column="49" lean-forward="false" selection-start-line="170" selection-start-column="49" selection-end-line="170" selection-end-column="49" />
+              <folding>
+                <element signature="docComment;class#ArrayQueue#0" expanded="true" />
+                <element signature="docComment;method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="docComment;method#dequeue#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="method#dequeue#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="docComment;method#enqueue#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="method#enqueue#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="method#isEmpty#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="method#size#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="docComment;method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="docComment;method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="docComment;method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="docComment;method#checkForNoSuchElement#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="method#checkForNoSuchElement#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="docComment;method#checkForIllegalArgument#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="method#checkForIllegalArgument#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="docComment;method#loopFromFrontToLength#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="method#loopFromFrontToLength#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="docComment;method#regrowCapacityIfFull#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="method#regrowCapacityIfFull#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="docComment;method#iterateFrontToBack#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="method#iterateFrontToBack#0;class#ArrayQueue#0" expanded="true" />
+                <element signature="method#assignVariablesWhenRegrowing#0;class#ArrayQueue#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedStack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LinkedStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="62" column="7" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+              <folding>
+                <element signature="docComment;class#LinkedStack#0" expanded="true" />
+                <element signature="method#pop#0;class#LinkedStack#0" expanded="true" />
+                <element signature="method#push#0;class#LinkedStack#0" expanded="true" />
+                <element signature="method#isEmpty#0;class#LinkedStack#0" expanded="true" />
+                <element signature="method#size#0;class#LinkedStack#0" expanded="true" />
+                <element signature="docComment;method#getHead#0;class#LinkedStack#0" expanded="true" />
+                <element signature="method#getHead#0;class#LinkedStack#0" expanded="true" />
+                <element signature="method#checkIfStackIsEmpty#0;class#LinkedStack#0" expanded="true" />
+                <element signature="docComment;method#checkForIllegalArgument#0;class#LinkedStack#0" expanded="true" />
+                <element signature="method#checkForIllegalArgument#0;class#LinkedStack#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedQueue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-630">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="docComment;class#LinkedQueue#0" expanded="true" />
+                <element signature="method#dequeue#0;class#LinkedQueue#0" expanded="true" />
+                <element signature="method#enqueue#0;class#LinkedQueue#0" expanded="true" />
+                <element signature="method#isEmpty#0;class#LinkedQueue#0" expanded="true" />
+                <element signature="method#size#0;class#LinkedQueue#0" expanded="true" />
+                <element signature="docComment;method#getHead#0;class#LinkedQueue#0" expanded="true" />
+                <element signature="method#getHead#0;class#LinkedQueue#0" expanded="true" />
+                <element signature="docComment;method#getTail#0;class#LinkedQueue#0" expanded="true" />
+                <element signature="method#getTail#0;class#LinkedQueue#0" expanded="true" />
+                <element signature="docComment;method#checkIfStackIsEmpty#0;class#LinkedQueue#0" expanded="true" />
+                <element signature="method#checkIfStackIsEmpty#0;class#LinkedQueue#0" expanded="true" />
+                <element signature="docComment;method#checkForIllegalArgument#0;class#LinkedQueue#0" expanded="true" />
+                <element signature="method#checkForIllegalArgument#0;class#LinkedQueue#0" expanded="true" />
+                <element signature="docComment;method#getT#0;class#LinkedQueue#0" expanded="true" />
+                <element signature="method#getT#0;class#LinkedQueue#0" expanded="true" />
+                <element signature="docComment;method#assignNodeToNewPosition#0;class#LinkedQueue#0" expanded="true" />
+                <element signature="method#assignNodeToNewPosition#0;class#LinkedQueue#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -246,20 +242,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/JStacksQueuesTests.java" />
-        <option value="$PROJECT_DIR$/src/LinkedQueue.java" />
-        <option value="$PROJECT_DIR$/src/ArrayStack.java" />
-        <option value="$PROJECT_DIR$/src/LinkedStack.java" />
-        <option value="$PROJECT_DIR$/src/ArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/StacksQueuesTestByFrancine.java" />
         <option value="$PROJECT_DIR$/src/StacksQueuesTestsSanath.java" />
         <option value="$PROJECT_DIR$/src/StacksQueueDerekTests.java" />
+        <option value="$PROJECT_DIR$/src/ArrayStack.java" />
+        <option value="$PROJECT_DIR$/src/LinkedQueue.java" />
+        <option value="$PROJECT_DIR$/src/ArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/LinkedStack.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="976" />
-    <option name="height" value="1038" />
+    <option name="x" value="762" />
+    <option name="width" value="781" />
+    <option name="height" value="831" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -284,6 +280,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -510,39 +507,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JStacksQueuesTests - 2017.09.07 at 15h 20m 40s.xml">
+    <history-entry file="JStacksQueuesTests - 2017.09.08 at 09h 05m 29s.xml">
       <configuration name="JStacksQueuesTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JStacksQueuesTests - 2017.09.07 at 15h 21m 54s.xml">
+    <history-entry file="JStacksQueuesTests - 2017.09.08 at 09h 08m 20s.xml">
       <configuration name="JStacksQueuesTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JStacksQueuesTests - 2017.09.07 at 15h 23m 56s.xml">
-      <configuration name="JStacksQueuesTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JStacksQueuesTests - 2017.09.07 at 15h 27m 25s.xml">
-      <configuration name="JStacksQueuesTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JStacksQueuesTests - 2017.09.07 at 15h 27m 40s.xml">
-      <configuration name="JStacksQueuesTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JStacksQueuesTests - 2017.09.07 at 15h 28m 12s.xml">
-      <configuration name="JStacksQueuesTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StacksQueueDerekTests - 2017.09.07 at 15h 35m 36s.xml">
+    <history-entry file="StacksQueueDerekTests - 2017.09.08 at 09h 05m 23s.xml">
       <configuration name="StacksQueueDerekTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StacksQueuesTestsByFrancine - 2017.09.07 at 15h 34m 11s.xml">
+    <history-entry file="StacksQueueDerekTests - 2017.09.08 at 09h 08m 39s.xml">
+      <configuration name="StacksQueueDerekTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StacksQueueDerekTests - 2017.09.08 at 09h 27m 33s.xml">
+      <configuration name="StacksQueueDerekTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StacksQueueDerekTests - 2017.09.08 at 09h 35m 10s.xml">
+      <configuration name="StacksQueueDerekTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StacksQueueDerekTests - 2017.09.08 at 09h 50m 40s.xml">
+      <configuration name="StacksQueueDerekTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StacksQueueDerekTests - 2017.09.08 at 10h 22m 39s.xml">
+      <configuration name="StacksQueueDerekTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StacksQueuesTestsByFrancine - 2017.09.08 at 09h 08m 29s.xml">
       <configuration name="StacksQueuesTestsByFrancine" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StacksQueuesTestsSanath - 2017.09.07 at 15h 35m 03s.xml">
-      <configuration name="StacksQueuesTestsSanath" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StacksQueuesTestsSanath - 2017.09.07 at 15h 35m 33s.xml">
+    <history-entry file="StacksQueuesTestsSanath - 2017.09.08 at 09h 08m 35s.xml">
       <configuration name="StacksQueuesTestsSanath" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-7" y="-7" width="1551" height="839" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -552,9 +550,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5021482" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52685285" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52670723" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.49785176" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32766616" sideWeight="0.49785176" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -579,30 +577,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JStacksQueuesTests.java</url>
-          <line>210</line>
-          <properties />
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JStacksQueuesTests.java</url>
-          <line>211</line>
-          <properties />
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JStacksQueuesTests.java</url>
-          <line>214</line>
-          <properties />
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/JStacksQueuesTests.java</url>
-          <line>215</line>
-          <properties />
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/JStacksQueuesTests.java</url>
           <line>175</line>
@@ -649,6 +623,7 @@
           <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="docComment;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#dequeue#0;class#LinkedQueue#0" expanded="true" />
             <element signature="method#enqueue#0;class#LinkedQueue#0" expanded="true" />
             <element signature="method#isEmpty#0;class#LinkedQueue#0" expanded="true" />
             <element signature="method#size#0;class#LinkedQueue#0" expanded="true" />
@@ -656,6 +631,14 @@
             <element signature="method#getHead#0;class#LinkedQueue#0" expanded="true" />
             <element signature="docComment;method#getTail#0;class#LinkedQueue#0" expanded="true" />
             <element signature="method#getTail#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#checkIfStackIsEmpty#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#checkIfStackIsEmpty#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#getT#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#getT#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#assignNodeToNewPosition#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#assignNodeToNewPosition#0;class#LinkedQueue#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -687,6 +670,9 @@
             <element signature="method#size#0;class#LinkedStack#0" expanded="true" />
             <element signature="docComment;method#getHead#0;class#LinkedStack#0" expanded="true" />
             <element signature="method#getHead#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#checkIfStackIsEmpty#0;class#LinkedStack#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#LinkedStack#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -772,10 +758,12 @@
           <folding>
             <element signature="docComment;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
             <element signature="docComment;method#dequeue#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#dequeue#0;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#enqueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#enqueue#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#isEmpty#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#size#0;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
@@ -784,6 +772,17 @@
             <element signature="method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#checkForNoSuchElement#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#checkForNoSuchElement#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#loopFromFrontToLength#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#loopFromFrontToLength#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#regrowCapacityIfFull#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#regrowCapacityIfFull#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#iterateFrontToBack#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#iterateFrontToBack#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#assignVariablesWhenRegrowing#0;class#ArrayQueue#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -804,8 +803,13 @@
             <element signature="docComment;method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
             <element signature="method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
             <element signature="docComment;method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
-            <element signature="method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
             <element signature="docComment;method#createBackingArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#checkForNoSuchElement#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#checkForNoSuchElement#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#checkForFullArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#checkForFullArray#0;class#ArrayStack#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -816,6 +820,7 @@
           <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="docComment;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#dequeue#0;class#LinkedQueue#0" expanded="true" />
             <element signature="method#enqueue#0;class#LinkedQueue#0" expanded="true" />
             <element signature="method#isEmpty#0;class#LinkedQueue#0" expanded="true" />
             <element signature="method#size#0;class#LinkedQueue#0" expanded="true" />
@@ -823,6 +828,14 @@
             <element signature="method#getHead#0;class#LinkedQueue#0" expanded="true" />
             <element signature="docComment;method#getTail#0;class#LinkedQueue#0" expanded="true" />
             <element signature="method#getTail#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#checkIfStackIsEmpty#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#checkIfStackIsEmpty#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#getT#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#getT#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#assignNodeToNewPosition#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#assignNodeToNewPosition#0;class#LinkedQueue#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -854,6 +867,9 @@
             <element signature="method#size#0;class#LinkedStack#0" expanded="true" />
             <element signature="docComment;method#getHead#0;class#LinkedStack#0" expanded="true" />
             <element signature="method#getHead#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#checkIfStackIsEmpty#0;class#LinkedStack#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#LinkedStack#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -939,10 +955,12 @@
           <folding>
             <element signature="docComment;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
             <element signature="docComment;method#dequeue#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#dequeue#0;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#enqueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#enqueue#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#isEmpty#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#size#0;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
@@ -951,6 +969,17 @@
             <element signature="method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#checkForNoSuchElement#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#checkForNoSuchElement#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#loopFromFrontToLength#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#loopFromFrontToLength#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#regrowCapacityIfFull#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#regrowCapacityIfFull#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#iterateFrontToBack#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#iterateFrontToBack#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#assignVariablesWhenRegrowing#0;class#ArrayQueue#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -971,8 +1000,13 @@
             <element signature="docComment;method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
             <element signature="method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
             <element signature="docComment;method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
-            <element signature="method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
             <element signature="docComment;method#createBackingArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#checkForNoSuchElement#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#checkForNoSuchElement#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#checkForFullArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#checkForFullArray#0;class#ArrayStack#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -983,6 +1017,7 @@
           <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="docComment;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#dequeue#0;class#LinkedQueue#0" expanded="true" />
             <element signature="method#enqueue#0;class#LinkedQueue#0" expanded="true" />
             <element signature="method#isEmpty#0;class#LinkedQueue#0" expanded="true" />
             <element signature="method#size#0;class#LinkedQueue#0" expanded="true" />
@@ -990,6 +1025,14 @@
             <element signature="method#getHead#0;class#LinkedQueue#0" expanded="true" />
             <element signature="docComment;method#getTail#0;class#LinkedQueue#0" expanded="true" />
             <element signature="method#getTail#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#checkIfStackIsEmpty#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#checkIfStackIsEmpty#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#getT#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#getT#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#assignNodeToNewPosition#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#assignNodeToNewPosition#0;class#LinkedQueue#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1095,6 +1138,9 @@
             <element signature="method#size#0;class#LinkedStack#0" expanded="true" />
             <element signature="docComment;method#getHead#0;class#LinkedStack#0" expanded="true" />
             <element signature="method#getHead#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#checkIfStackIsEmpty#0;class#LinkedStack#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#LinkedStack#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1106,10 +1152,12 @@
           <folding>
             <element signature="docComment;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
             <element signature="docComment;method#dequeue#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#dequeue#0;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#enqueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#enqueue#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#isEmpty#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#size#0;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
@@ -1118,6 +1166,17 @@
             <element signature="method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
             <element signature="docComment;method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
             <element signature="method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#checkForNoSuchElement#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#checkForNoSuchElement#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#loopFromFrontToLength#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#loopFromFrontToLength#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#regrowCapacityIfFull#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#regrowCapacityIfFull#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#iterateFrontToBack#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#iterateFrontToBack#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#assignVariablesWhenRegrowing#0;class#ArrayQueue#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1138,8 +1197,13 @@
             <element signature="docComment;method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
             <element signature="method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
             <element signature="docComment;method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
-            <element signature="method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
             <element signature="docComment;method#createBackingArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#checkForNoSuchElement#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#checkForNoSuchElement#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#checkForFullArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#checkForFullArray#0;class#ArrayStack#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1150,6 +1214,7 @@
           <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="docComment;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#dequeue#0;class#LinkedQueue#0" expanded="true" />
             <element signature="method#enqueue#0;class#LinkedQueue#0" expanded="true" />
             <element signature="method#isEmpty#0;class#LinkedQueue#0" expanded="true" />
             <element signature="method#size#0;class#LinkedQueue#0" expanded="true" />
@@ -1157,6 +1222,14 @@
             <element signature="method#getHead#0;class#LinkedQueue#0" expanded="true" />
             <element signature="docComment;method#getTail#0;class#LinkedQueue#0" expanded="true" />
             <element signature="method#getTail#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#checkIfStackIsEmpty#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#checkIfStackIsEmpty#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#getT#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#getT#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#assignNodeToNewPosition#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#assignNodeToNewPosition#0;class#LinkedQueue#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1255,6 +1328,9 @@
             <element signature="method#size#0;class#LinkedStack#0" expanded="true" />
             <element signature="docComment;method#getHead#0;class#LinkedStack#0" expanded="true" />
             <element signature="method#getHead#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#checkIfStackIsEmpty#0;class#LinkedStack#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#LinkedStack#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1317,122 +1393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="docComment;class#LinkedStack#0" expanded="true" />
-            <element signature="method#pop#0;class#LinkedStack#0" expanded="true" />
-            <element signature="method#push#0;class#LinkedStack#0" expanded="true" />
-            <element signature="method#isEmpty#0;class#LinkedStack#0" expanded="true" />
-            <element signature="method#size#0;class#LinkedStack#0" expanded="true" />
-            <element signature="docComment;method#getHead#0;class#LinkedStack#0" expanded="true" />
-            <element signature="method#getHead#0;class#LinkedStack#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/QueueInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding>
-            <element signature="docComment;class#QueueInterface#0" expanded="true" />
-            <element signature="docComment;field#INITIAL_CAPACITY#0;class#QueueInterface#0" expanded="true" />
-            <element signature="docComment;method#dequeue#0;class#QueueInterface#0" expanded="true" />
-            <element signature="docComment;method#enqueue#0;class#QueueInterface#0" expanded="true" />
-            <element signature="docComment;method#isEmpty#0;class#QueueInterface#0" expanded="true" />
-            <element signature="docComment;method#size#0;class#QueueInterface#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#ArrayStack#0" expanded="true" />
-            <element signature="docComment;method#ArrayStack#0;class#ArrayStack#0" expanded="true" />
-            <element signature="docComment;method#pop#0;class#ArrayStack#0" expanded="true" />
-            <element signature="method#pop#0;class#ArrayStack#0" expanded="true" />
-            <element signature="docComment;method#push#0;class#ArrayStack#0" expanded="true" />
-            <element signature="method#push#0;class#ArrayStack#0" expanded="true" />
-            <element signature="method#isEmpty#0;class#ArrayStack#0" expanded="true" />
-            <element signature="method#size#0;class#ArrayStack#0" expanded="true" />
-            <element signature="docComment;method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
-            <element signature="method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
-            <element signature="docComment;method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
-            <element signature="method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
-            <element signature="docComment;method#createBackingArray#0;class#ArrayStack#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JStacksQueuesTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#JStacksQueuesTests#0" expanded="true" />
-            <element signature="method#arrayStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
-            <element signature="method#arrayStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
-            <element signature="method#linkedStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
-            <element signature="method#linkedStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
-            <element signature="method#arrayQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
-            <element signature="method#arrayQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
-            <element signature="e#6192#6270#0" expanded="true" />
-            <element signature="e#7020#7093#0" expanded="true" />
-            <element signature="e#7605#7678#0" expanded="true" />
-            <element signature="e#8231#8300#0" expanded="true" />
-            <element signature="method#linkedQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
-            <element signature="method#linkedQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#LinkedQueue#0" expanded="true" />
-            <element signature="method#enqueue#0;class#LinkedQueue#0" expanded="true" />
-            <element signature="method#isEmpty#0;class#LinkedQueue#0" expanded="true" />
-            <element signature="method#size#0;class#LinkedQueue#0" expanded="true" />
-            <element signature="docComment;method#getHead#0;class#LinkedQueue#0" expanded="true" />
-            <element signature="method#getHead#0;class#LinkedQueue#0" expanded="true" />
-            <element signature="docComment;method#getTail#0;class#LinkedQueue#0" expanded="true" />
-            <element signature="method#getTail#0;class#LinkedQueue#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-          <folding>
-            <element signature="docComment;class#ArrayQueue#0" expanded="true" />
-            <element signature="docComment;method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="docComment;method#dequeue#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="method#dequeue#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="docComment;method#enqueue#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="method#isEmpty#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="method#size#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="docComment;method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="docComment;method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="docComment;method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
-            <element signature="method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StacksQueuesTestsByFrancine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1450,7 +1410,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StacksQueuesTestsSanath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
+        <state relative-caret-position="664">
           <caret line="265" column="1" lean-forward="false" selection-start-line="265" selection-start-column="1" selection-end-line="265" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1485,6 +1445,152 @@
             <element signature="method#testLLDequeueEmpty#0;class#StacksQueueDerekTests#0" expanded="true" />
             <element signature="method#testArrayQueueWrapAround#0;class#StacksQueueDerekTests#0" expanded="true" />
             <element signature="method#testArrayQueueRegrowShift#0;class#StacksQueueDerekTests#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QueueInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="docComment;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;field#INITIAL_CAPACITY#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#dequeue#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#enqueue#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#isEmpty#0;class#QueueInterface#0" expanded="true" />
+            <element signature="docComment;method#size#0;class#QueueInterface#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JStacksQueuesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="214" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedStackPush#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedStackPop#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#arrayQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="e#6192#6270#0" expanded="true" />
+            <element signature="e#7020#7093#0" expanded="true" />
+            <element signature="e#7605#7678#0" expanded="true" />
+            <element signature="e#8231#8300#0" expanded="true" />
+            <element signature="method#linkedQueueEnqueue#0;class#JStacksQueuesTests#0" expanded="true" />
+            <element signature="method#linkedQueueDequeue#0;class#JStacksQueuesTests#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335">
+          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#ArrayStack#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#pop#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#pop#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#push#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#push#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#size#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#getBackingArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#expandCapacity#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#createBackingArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#checkForNoSuchElement#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#checkForNoSuchElement#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#ArrayStack#0" expanded="true" />
+            <element signature="docComment;method#checkForFullArray#0;class#ArrayStack#0" expanded="true" />
+            <element signature="method#checkForFullArray#0;class#ArrayStack#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="170" column="49" lean-forward="false" selection-start-line="170" selection-start-column="49" selection-end-line="170" selection-end-column="49" />
+          <folding>
+            <element signature="docComment;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#ArrayQueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="docComment;method#dequeue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#dequeue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#enqueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#enqueue#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#size#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#getBackingArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#expandCapacity#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#createNewArray#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#checkForNoSuchElement#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#checkForNoSuchElement#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#loopFromFrontToLength#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#loopFromFrontToLength#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#regrowCapacityIfFull#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#regrowCapacityIfFull#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="docComment;method#iterateFrontToBack#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#iterateFrontToBack#0;class#ArrayQueue#0" expanded="true" />
+            <element signature="method#assignVariablesWhenRegrowing#0;class#ArrayQueue#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="62" column="7" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+          <folding>
+            <element signature="docComment;class#LinkedStack#0" expanded="true" />
+            <element signature="method#pop#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#push#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#size#0;class#LinkedStack#0" expanded="true" />
+            <element signature="docComment;method#getHead#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#getHead#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#checkIfStackIsEmpty#0;class#LinkedStack#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#LinkedStack#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#LinkedStack#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#dequeue#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#enqueue#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#size#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#getHead#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#getHead#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#getTail#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#getTail#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#checkIfStackIsEmpty#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#checkIfStackIsEmpty#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#checkForIllegalArgument#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#checkForIllegalArgument#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#getT#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#getT#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="docComment;method#assignNodeToNewPosition#0;class#LinkedQueue#0" expanded="true" />
+            <element signature="method#assignNodeToNewPosition#0;class#LinkedQueue#0" expanded="true" />
           </folding>
         </state>
       </provider>

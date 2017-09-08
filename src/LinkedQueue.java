@@ -1,10 +1,10 @@
 /**
- * Your implementation of a linked queue.
+ * Your implementation of an array-backed queue.
  *
- * @author YOUR NAME HERE
- * @userid YOUR USER ID HERE (i.e. gburdell3)
- * @GTID YOUR GT ID HERE (i.e. 900000000)
- * @version 1.0
+ * @author Ahmed Gedi
+ * @userid agedi3
+ * @GTID 903197142
+ * @version 1.44
  */
 public class LinkedQueue<T> implements QueueInterface<T> {
 
@@ -15,15 +15,8 @@ public class LinkedQueue<T> implements QueueInterface<T> {
 
     @Override
     public T dequeue() {
-        if (isEmpty()) {
-            throw new java.util.NoSuchElementException();
-        }
-        T front = null;
-        front = head.getData();
-        head = head.getNext();
-        if (head == null) {
-            tail = null;
-        }
+        checkIfStackIsEmpty();
+        T front = getT();
         size--;
         return front;
 
@@ -31,15 +24,9 @@ public class LinkedQueue<T> implements QueueInterface<T> {
 
     @Override
     public void enqueue(T data) {
-        if (data == null) {
-            throw new IllegalArgumentException();
-        }
+        checkForIllegalArgument(data);
         LinkedNode newNode = new LinkedNode(data, null);
-        if (isEmpty()) {
-            head = newNode;
-        } else {
-            tail.setNext(newNode);
-        }
+        assignNodeToNewPosition(newNode);
         tail = newNode;
         size++;
     }
@@ -80,5 +67,48 @@ public class LinkedQueue<T> implements QueueInterface<T> {
     public LinkedNode<T> getTail() {
         // DO NOT MODIFY THIS METHOD!
         return tail;
+    }
+
+    /**
+     *
+     */
+    private void checkIfStackIsEmpty() {
+        if (isEmpty()) {
+            throw new java.util.NoSuchElementException();
+        }
+    }
+
+    /**
+     *
+     * @param data
+     */
+    private void checkForIllegalArgument(T data) {
+        if (data == null) {
+            throw new IllegalArgumentException();
+        }
+    }
+
+    /**
+     *
+     * @return
+     */
+    private T getT() {
+        T front = null;
+        front = head.getData();
+        head = head.getNext();
+        if (head == null) tail = null;
+        return front;
+    }
+
+    /**
+     *
+     * @param newNode
+     */
+    private void assignNodeToNewPosition(LinkedNode newNode) {
+        if (isEmpty()) {
+            head = newNode;
+        } else {
+            tail.setNext(newNode);
+        }
     }
 }

@@ -1,10 +1,10 @@
 /**
- * Your implementation of a linked stack.
+ * Your implementation of an array-backed queue.
  *
- * @author YOUR NAME HERE
- * @userid YOUR USER ID HERE (i.e. gburdell3)
- * @GTID YOUR GT ID HERE (i.e. 900000000)
- * @version 1.0
+ * @author Ahmed Gedi
+ * @userid agedi3
+ * @GTID 903197142
+ * @version 1.44
  */
 public class LinkedStack<T> implements StackInterface<T> {
 
@@ -14,22 +14,24 @@ public class LinkedStack<T> implements StackInterface<T> {
 
     @Override
     public T pop() {
-        if (isEmpty()) {
-            throw new java.util.NoSuchElementException();
-        }
+        checkIfStackIsEmpty();
+
         LinkedNode nodeTORemove = head;
+
         head = head.getNext();
+
         size--;
+
         return (T) nodeTORemove.getData();
 
     }
 
     @Override
     public void push(T data) {
-        if (data == null) {
-            throw new IllegalArgumentException();
-        }
+        checkForIllegalArgument(data);
+
         head = new LinkedNode<T>(data, head);
+
         size++;
     }
 
@@ -56,5 +58,24 @@ public class LinkedStack<T> implements StackInterface<T> {
     public LinkedNode<T> getHead() {
         // DO NOT MODIFY THIS METHOD!
         return head;
+    }
+
+    /**
+     * if the stack is empty then throw a NoSuchElementException
+     */
+    private void checkIfStackIsEmpty() {
+        if (isEmpty()) {
+            throw new java.util.NoSuchElementException();
+        }
+    }
+
+    /**
+     *
+     * @param data the data to check if it is null
+     */
+    private void checkForIllegalArgument(T data) {
+        if (data == null) {
+            throw new IllegalArgumentException();
+        }
     }
 }

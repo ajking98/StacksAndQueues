@@ -3,10 +3,10 @@
 /**
  * Your implementation of an array-backed queue.
  *
- * @author YOUR NAME HERE
- * @userid YOUR USER ID HERE (i.e. gburdell3)
- * @GTID YOUR GT ID HERE (i.e. 900000000)
- * @version 1.0
+ * @author Ahmed Gedi
+ * @userid agedi3
+ * @GTID 903197142
+ * @version 1.44
  */
 public class ArrayQueue<T> implements QueueInterface<T> {
 
@@ -21,7 +21,6 @@ public class ArrayQueue<T> implements QueueInterface<T> {
      */
     public ArrayQueue() {
         backingArray = (T[]) new Object[INITIAL_CAPACITY];
-        front = 0;
     }
 
     /**
@@ -35,13 +34,16 @@ public class ArrayQueue<T> implements QueueInterface<T> {
      */
     @Override
     public T dequeue() {
-        if (size == 0) {
-            throw new java.util.NoSuchElementException();
-        }
+        checkForNoSuchElement();
+
         T removedObj = backingArray[front];
+
         backingArray[front] = null;
+
         front = (front + 1) % backingArray.length;
+
         size--;
+
         return removedObj;
     }
 
@@ -57,14 +59,14 @@ public class ArrayQueue<T> implements QueueInterface<T> {
      */
     @Override
     public void enqueue(T data) {
-        if (data == null) {
-            throw new IllegalArgumentException();
-        }
-        if (size == backingArray.length) {
-            expandCapacity();
-        }
+        checkForIllegalArgument(data);
+
+        regrowCapacityIfFull();
+
         backingArray[back] = data;
+
         back = (back + 1) % backingArray.length;
+
         size++;
     }
 
@@ -92,23 +94,19 @@ public class ArrayQueue<T> implements QueueInterface<T> {
         // DO NOT MODIFY THIS METHOD!
         return backingArray;
     }
+
     /**
      * Creates a new array to store the contents of the list with twice
      * the capacity of the old one.
      */
     private void expandCapacity() {
         T[] newList = createNewArray();
-        for (int i = front; i < backingArray.length; i++) {
-            newList[i - front] = backingArray[i];
-        }
-        if (front >= back) {
-            for (int i = 0; i < back; i++) {
-                newList[i + backingArray.length - front] = backingArray[i];
-            }
-        }
-        backingArray = newList;
-        front = 0;
-        back = size;
+
+        loopFromFrontToLength(newList);
+
+        iterateFrontToBack(newList);
+
+        assignVariablesWhenRegrowing(newList);
     }
 
     /**
@@ -117,5 +115,64 @@ public class ArrayQueue<T> implements QueueInterface<T> {
      */
     private T[] createNewArray() {
         return (T[]) (new Object[backingArray.length * 2]);
+    }
+
+    /**
+     * Checks for no Such Element and if size equals zero
+     */
+    private void checkForNoSuchElement() {
+        if (size == 0) {
+            throw new java.util.NoSuchElementException();
+        }
+    }
+
+    /**
+     *
+     * @param data check if the data is equal to null
+     */
+    private void checkForIllegalArgument(T data) {
+        if (data == null) {
+            throw new IllegalArgumentException();
+        }
+    }
+
+    /**
+     *
+     * @param newList create a new list and set it to backArray
+     */
+    private void loopFromFrontToLength(T[] newList) {
+        for (int i = front; i < backingArray.length; i++) {
+            newList[i - front] = backingArray[i];
+        }
+    }
+
+    /**
+     * if the array is full then expand the capacity
+     */
+    private void regrowCapacityIfFull() {
+        if (size == backingArray.length) {
+            expandCapacity();
+        }
+    }
+    /**
+     *
+     * @param newList iterate from front to back if front if bigger than back
+     */
+    private void iterateFrontToBack(T[] newList) {
+        if (front >= back) {
+            for (int i = 0; i < back; i++) {
+                newList[i + backingArray.length - front] = backingArray[i];
+            }
+        }
+    }
+
+    /**
+     *
+     * @param newList a new list as the parameter
+     */
+    private void assignVariablesWhenRegrowing(T[] newList) {
+        backingArray = newList;
+        front = 0;
+        back = size;
     }
 }
